@@ -15,7 +15,6 @@ header {
     top: 0;
     left: 10;
     width: 100%;
-    padding: 20px 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -125,9 +124,9 @@ header a{
   display: flex;
     flex: 1; 
   flex-direction: row;
-  padding: 20px;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
    font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
  }
 .cv{width: 75%; }
