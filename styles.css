@@ -2,7 +2,6 @@ body, html {
     margin: 0;
     padding: 0;
     scrollbar-width: none;
-    font-family: 'Archivo', sans-serif;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -47,11 +46,11 @@ header {
 
 .contact header{
     position: static;
-    display: grid; /* Changed from flex to grid for perfect absolute centering */
+    display: grid;
     grid-template-columns: 1fr auto 1fr;
    }
 
-.contact header a{justify-self: end; /* Pushes the home star icon cleanly to the far right */
+.contact header a{justify-self: end;
     color: black;
     text-decoration: none;}
 
@@ -63,12 +62,12 @@ header {
 h1 {
     all: unset;
     padding: 1%;
-    font-size: clamp(1.5rem, 1.306rem + 0.864vw, 2.083rem);
+    font-size: clamp(1.5rem, 1.306rem + 0.864vw, 2.083rem) !important;
   letter-spacing: 0.2rem;
 }
 
 .stella {
-    height: clamp(2rem, 1.741rem + 1.152vw, 2.777rem);
+    height: clamp(2rem, 1.741rem + 1.152vw, 2.777rem) !important;
     width: auto; 
     display: inline-block;
     vertical-align: middle;
@@ -103,7 +102,7 @@ header a{
   padding: 0;
 }
 
-.menu a {font-size: clamp(1.2rem, 1.044rem + 0.694vw, 1.667rem);}
+.menu a {font-size: clamp(1.2rem, 1.044rem + 0.694vw, 1.667rem) !important;}
 
 .menu {
   position: fixed;
@@ -116,7 +115,7 @@ header a{
   mix-blend-mode: exclusion;
 }
 
-.contact header #titlepage{grid-column: 2; /* Forces it into the exact center track */
+.contact header #titlepage{grid-column: 2;
     text-align: center;
   white-space: nowrap;}
 #cv-contact {
@@ -126,7 +125,7 @@ header a{
   padding: 0;
   padding-left: 2%;
   padding-right: 2%;
-   font-size: clamp(0.95rem, 0.9045rem + 0.2182vw, 1.1rem);
+   font-size: clamp(0.95rem, 0.9045rem + 0.2182vw, 1.1rem) !important;
  }
 .cv{width: 75%; }
 .contacts{width: 25%;}
@@ -164,8 +163,7 @@ header a{
 }
 
 footer p{
-    font-size: clamp(0.625rem, 0.5739rem + 0.2273vw, 0.75rem);
-   
+    font-size: clamp(0.625rem, 0.5739rem + 0.2273vw, 0.75rem) !important;
     padding: 0;
 }
 
