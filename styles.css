@@ -49,8 +49,7 @@ header {
 
 .contact header{
     position: static;
-    display: grid;
-    margin-left: 80px;
+    display: grid; 
     grid-template-columns: 1fr auto 1fr;
    }
 
