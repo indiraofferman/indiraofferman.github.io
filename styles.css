@@ -124,8 +124,8 @@ header a{
   display: flex;
     flex: 1; 
   flex-direction: row;
-  padding-top: 4%;
-  padding-left: 4%;
+  padding-top: 5%;
+  padding-left: 15%;
   padding-right: 4%;
    font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
  }
