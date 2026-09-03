@@ -70,7 +70,7 @@ header a  { grid-column: 3; justify-self: end; }
 
 .contact header a{justify-self: end;
     color: black;
-    text-decoration: none;}
+    text-decoration: neone;}
 
 .contact header:nth-child(2) {
     align-self: center;
@@ -163,7 +163,7 @@ header a {
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0;
-  padding: 20px;
+  padding: 40px;
 }
 
 
