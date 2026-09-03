@@ -133,8 +133,8 @@ header a {
   mix-blend-mode: exclusion;
 }
 
-.cv{width: 70%; }
-.contacts{width: 30%;}
+.cv{width: 65%; }
+.contacts{width: 35%;}
 
 .cv {
   display: flex;
