@@ -10,7 +10,7 @@ body, html {
 
 html{font-size: 14px !important;}
 
-header {
+/*header {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,8 +20,26 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
+    /mix-blend-mode: exclusion;
+}*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    color: white;
     mix-blend-mode: exclusion;
 }
+
+header h1 { grid-column: 1; justify-self: start; }
+header a  { grid-column: 3; justify-self: end; }
 
 .contact header, .contact a{
     color: black;
@@ -46,11 +64,9 @@ header {
     justify-content: space-between;
    }
 
-.contact header{
+.contact header {
     position: static;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-   }
+}
 
 .contact header a{justify-self: end;
     color: black;
@@ -63,9 +79,9 @@ header {
 
 h1 {
     all: unset;
-    padding: 1%;
+    padding: 0.5rem;  
     font-size: clamp(1.5rem, calc(1.306rem + 0.864vw), 2.083rem) !important;
-  letter-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
 }
 
 .stella {
@@ -76,8 +92,8 @@ h1 {
 }
 
 
-header a{
-    padding: 1%;
+header a {
+    padding: 0.5rem;  
 }
 
 #bgvideo {
@@ -116,15 +132,7 @@ header a{
   align-items: center;
   mix-blend-mode: exclusion;
 }
-.index header {
-  display: flex;
-    flex: 1; 
-  flex-direction: row;
-  padding: 0;
-  padding-left: 2%;
-  padding-right: 2%;
-   font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
- }
+
 .cv{width: 75%; }
 .contacts{width: 25%;}
 .cv, .contacts {
@@ -227,7 +235,7 @@ footer {
   }
 
   h1, h2, header a {
-    padding: 2.5%;
+    padding: 0.6rem;
   }
 
   #cv-contact {
