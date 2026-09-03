@@ -47,7 +47,13 @@ header {
 
 .contact header{
     position: static;
+    display: grid; /* Changed from flex to grid for perfect absolute centering */
+    grid-template-columns: 1fr auto 1fr;
    }
+
+.contact header a{justify-self: end; /* Pushes the home star icon cleanly to the far right */
+    color: black;
+    text-decoration: none;}
 
 .contact header:nth-child(2) {
     align-self: center;
@@ -58,7 +64,7 @@ h1 {
     all: unset;
     padding: 1%;
     font-size: clamp(1.5rem, 1.306rem + 0.864vw, 2.083rem);
-  letter-spacing: .1rem;
+  letter-spacing: 0.2rem;
 }
 
 .stella {
@@ -67,8 +73,6 @@ h1 {
     display: inline-block;
     vertical-align: middle;
 }
-
-#titlepage{letter-spacing: 0rem;}
 
 
 header a{
@@ -112,14 +116,17 @@ header a{
   mix-blend-mode: exclusion;
 }
 
+.contact header #titlepage{grid-column: 2; /* Forces it into the exact center track */
+    text-align: center;
+  white-space: nowrap;}
 #cv-contact {
   display: flex;
     flex: 1; 
   flex-direction: row;
   padding: 0;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-   font-size: clamp(0.95rem, 0.822rem + 0.569vw, 1.333rem);
+  padding-left: 2%;
+  padding-right: 2%;
+   font-size: clamp(0.95rem, 0.9045rem + 0.2182vw, 1.1rem);
  }
 .cv{width: 75%; }
 .contacts{width: 25%;}
@@ -135,8 +142,8 @@ header a{
 
 #cv-contact ul{
     height:auto;
-    gap: .25rem;
-    margin: .75rem;
+    gap: .5rem;
+    margin-bottom: 1rem;
 }
 
 
