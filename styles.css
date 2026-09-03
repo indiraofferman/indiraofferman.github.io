@@ -64,7 +64,7 @@ header {
 
 h1 {
     all: unset;
-    padding: 1rm;
+    padding: 0.9rm;
     font-size: clamp(1.5rem, calc(1.306rem + 0.864vw), 2.083rem) !important;
   letter-spacing: 0.2rem;
 }
