@@ -125,7 +125,7 @@ header a{
   display: flex;
     flex: 1; 
   flex-direction: row;
-  padding: 0;
+  padding: 20px;
   padding-left: 2%;
   padding-right: 2%;
    font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
