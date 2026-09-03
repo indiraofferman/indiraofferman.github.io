@@ -64,7 +64,7 @@ header {
 
 h1 {
     all: unset;
-    padding: 0.5rm;
+    padding: 1%;
     font-size: clamp(1.5rem, calc(1.306rem + 0.864vw), 2.083rem) !important;
   letter-spacing: 0.2rem;
 }
@@ -78,7 +78,7 @@ h1 {
 
 
 header a{
-    padding: 1%;
+    padding: 1rem;
 }
 
 #bgvideo {
