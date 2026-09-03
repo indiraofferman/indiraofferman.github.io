@@ -118,7 +118,7 @@ header a{
   mix-blend-mode: exclusion;
 }
 
-.contact header #titlepage{grid-column: 1;
+.contact header #titlepage{grid-column: 2;
     text-align: center;
   white-space: nowrap;}
 #cv-contact {
