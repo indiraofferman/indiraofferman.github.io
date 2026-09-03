@@ -8,7 +8,7 @@ body, html {
     box-sizing: border-box;
 }
 
-html{font-size: 16px !important;}
+html{font-size: 14px !important;}
 
 header {
     position: fixed;
@@ -64,12 +64,12 @@ header {
 h1 {
     all: unset;
     padding: 1%;
-    font-size: clamp(1.5rem, 1.306rem + 0.864vw, 2.083rem) !important;
+    font-size: clamp(1.5rem, calc(1.306rem + 0.864vw), 2.083rem) !important;
   letter-spacing: 0.2rem;
 }
 
 .stella {
-    height: clamp(2rem, 1.741rem + 1.152vw, 2.777rem) !important;
+    height: clamp(2rem, calc(1.741rem + 1.152vw), 2.777rem) !important;
     width: auto; 
     display: inline-block;
     vertical-align: middle;
@@ -104,7 +104,7 @@ header a{
   padding: 0;
 }
 
-.menu a {font-size: clamp(1.2rem, 1.044rem + 0.694vw, 1.667rem) !important;}
+.menu a {font-size: clamp(1.2rem, calc(1.044rem + 0.694vw), 1.667rem) !important;}
 
 .menu {
   position: fixed;
@@ -127,7 +127,7 @@ header a{
   padding: 0;
   padding-left: 2%;
   padding-right: 2%;
-   font-size: clamp(0.95rem, 0.9045rem + 0.2182vw, 1.1rem) !important;
+   font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
  }
 .cv{width: 75%; }
 .contacts{width: 25%;}
@@ -165,7 +165,7 @@ header a{
 }
 
 footer p{
-    font-size: clamp(0.625rem, 0.5739rem + 0.2273vw, 0.75rem) !important;
+    font-size: clamp(0.625rem, calc(0.5739rem + 0.2273vw), 0.75rem) !important;
     padding: 0;
 }
 
