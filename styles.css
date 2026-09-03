@@ -133,8 +133,9 @@ header a {
   mix-blend-mode: exclusion;
 }
 
-.cv{width: 75%; }
-.contacts{width: 25%;}
+.cv{width: 70%; }
+.contacts{width: 30%;}
+
 .cv {
   display: flex;
   flex-direction: column;
@@ -146,6 +147,7 @@ header a {
 .contact header #titlepage{grid-column: 2;
     text-align: center;
   white-space: nowrap;}
+
 #cv-contact {
   display: flex;
     flex: 1; 
@@ -155,17 +157,15 @@ header a {
   padding-right: 2%;
    font-size: clamp(0.95rem, calc(0.9045rem + 0.2182vw), 1.1rem) !important;
  }
-.cv{width: 75%; }
-.contacts{width: 25%;}
+
 .contacts {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0;
-  padding: 40px;
+  padding: 0;
 }
-
 
 #cv-contact ul{
     height:auto;
