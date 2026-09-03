@@ -42,7 +42,6 @@ header {
     mix-blend-mode: normal; 
     width: 100dvw;
     height: 100dvh;
-    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,6 +50,7 @@ header {
 .contact header{
     position: static;
     display: grid;
+    padding: 20px 10px;
     grid-template-columns: 1fr auto 1fr;
    }
 
